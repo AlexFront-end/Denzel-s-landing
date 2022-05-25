@@ -1,0 +1,250 @@
+body,
+ul,
+p,
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1445px;
+    height: 4759px;
+    font-family: Roboto;
+    background-color: #fff;
+}
+
+.header,
+.section-home,
+.section-skills,
+.section-adobe {
+    margin: 0 auto;
+    width: 940px;
+}
+
+/* Section Header START */
+.section-home {
+    height: 678px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header {
+    height: 90px;
+    border-bottom: 1px solid #828282;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.header li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header a {
+    color: #828282;
+}
+
+.header li:first-of-type a {
+    color: #070707;
+}
+
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    width: 653px;
+    height: 189px;
+}
+
+.home-container-title {
+    padding-top: 35px;
+    font: 700 47px Roboto;
+    color: #070707;
+}
+
+.home-container-description {
+    padding-top: 90px;
+    font: 500 18px Roboto;
+    color: #070707;
+}
+
+.home-section-image {
+    width: 100%;
+    height: 400px;
+}
+
+/* Section Header END */
+
+/* Section About Me START */
+.section-about-me {
+    width: 100%;
+    height: 506px;
+    text-align: center;
+    background: #f6f6f6;
+}
+
+.section-about-me h2 {
+    padding-top: 90px;
+    font: 700 34px Roboto;
+    color: #070707;
+}
+
+.section-about-me p {
+    padding-top: 48px;
+    font: 500 18px Roboto;
+    color: #070707;
+}
+
+/* Section About Me END */
+
+
+/* Section Skills START */
+.section-skills {
+    height: 610px;
+    color: #070707;
+}
+
+.section-skills h2 {
+    padding-top: 90px;
+    font: 700 34px Roboto;
+    text-align: center;
+}
+
+.section-skills>p {
+    padding-top: 48px;
+    font: 500 18px Roboto;
+    text-align: center;
+}
+
+.graphic-editor-wrapper {
+    width: 100%;
+    height: 205px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 88px;
+}
+
+.graphic-editor-wrapper p {
+    font: 700 14px Roboto;
+    color: #828282;
+    text-align: center;
+}
+
+.photoshop,
+.illustrator,
+.adobe-after,
+.figma {
+    width: 170px;
+    height: 205px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photoshop>img:first-of-type,
+.illustrator>img:first-of-type,
+.adobe-after>img:first-of-type {
+    width: 88px;
+    height: auto;
+}
+
+.figma>img:first-of-type {
+    width: 61px;
+    height: 89px;
+}
+
+.photoshop>img:last-of-type,
+.illustrator>img:last-of-type,
+.adobe-after>img:last-of-type,
+.figma>img:last-of-type {
+    width: 100%;
+    height: auto;
+}
+
+/* Section Skills END */
+
+/* Setion Portfolio Start */
+
+.portfolio {
+    width: 100%;
+    height: 2253px;
+    background-color: #F6F6F6;
+}
+
+.portfolio h2{
+    padding-top: 90px;
+    font: 700 34px Roboto;
+    color: #070707;
+    text-align: center;
+}
+
+.portfolio img {
+    display: block;
+    margin: 90px auto 40px;
+}
+
+.portfolio div a{
+    display: block;
+    font: 500 18px Roboto;
+    color: #070707;
+    text-align: center;
+}
+
+/*Setion Portfolio END*/
+
+/*Contacts start*/
+
+.contacts {
+    width: 100%;
+    height: 622px;
+}
+
+.contacts img {
+    display: block;
+    margin: 0 auto;
+}
+
+.contacts h2,
+.contacts p {
+    color: #070707;
+    text-align: center;
+}
+
+.contacts h2 {
+    padding-top: 90px;
+    font: 700 34px Roboto;
+}
+
+.contacts p {
+    padding-top: 48px;
+    font: 500 18px Roboto;
+}
+
+.contacts button {
+    margin: 60px 0 90px 634px;
+    padding: 9px 30px;
+    border: 1px solid #070707;
+    border-radius: 40px;
+    background-color: #070707;
+}
+
+.contacts button a {
+    text-decoration: none;
+    font: 700 18px Roboto;
+    color: #fff;
+}
+
+.contacts div {
+    padding-top: 100px;
+}
+
+/*Contacts end*/
